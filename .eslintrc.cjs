@@ -22,11 +22,12 @@ module.exports = {
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
     },
     "plugins": [
         "react"
     ],
     "rules": {
+        "react/react-in-jsx-scope" : "off"
     }
 }
