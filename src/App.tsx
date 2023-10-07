@@ -43,6 +43,10 @@ const App = (): JSX.Element => {
           <p>
             <strong>Presencia en Redes Sociales:</strong> Mantenimiento de una fuerte presencia en las redes sociales para interactuar con la audiencia y promocionar ofertas y eventos locales.
           </p>
+          <p>
+            <strong>Publicidad digital: </strong>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U3C_lSk7LIk?si=FLr3Bqp_Q2JZcVJW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </p>
         </div>
         <div className={`strategy ${activeTab === 'internacional' ? 'active' : ''}`}>
           <span role="img" aria-label="globo terráqueo" className="icon">
@@ -61,6 +65,18 @@ const App = (): JSX.Element => {
           <p>
             <strong>Alianzas con Aerolíneas y Agencias de Viaje:</strong> Colaboración con aerolíneas y agencias de viaje internacionales para ofrecer paquetes de vuelo y alojamiento atractivos para los turistas internacionales.
           </p>
+          <p>
+            <strong>Publicidad digital:</strong>
+            <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/gYy1RITRN9s?si=VXLY1KrO6ORlBZZ5"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+        </p>
         </div>
       </div>
       <div className="comparison-section">
