@@ -4,7 +4,7 @@ import './App.css'
 const App = (): JSX.Element => {
   const [activeTab, setActiveTab] = useState('nacional')
 
-  const handleTabClick = (tab) => {
+  const handleTabClick = (tab: string): void => {
     setActiveTab(tab)
   }
 
